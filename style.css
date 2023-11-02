@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 20px;
+}
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+img {
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: calc(100% - 32px * 2);
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  background: #F1EDEA;
+  padding: 8px 0;
+}
+
+/* products */
+.products h2 {
+  margin-top: 32px;
+}
+.products ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.products li {
+  width: calc((100% - 32px * 3) / 4);
+}
+.products img {
+  width: 100%;
+  height: auto;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+/* product */
+.product {
+  display: flex;
+  gap: 32px;
+  max-width: 800px;
+  margin: 32px auto 0;
+}
+.product .item-info {
+  flex: 1;
+}
+.product button {
+  cursor: pointer;
+  background: #4B4B4B;
+  color: #ffffff;
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 32px;
+}
+
+/* selects */
+.product .selects {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.product .selects select {
+  border: none;
+  padding:0 32px ;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin-top: 64px;
+}
+
+
+
+
