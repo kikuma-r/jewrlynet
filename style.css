@@ -59,7 +59,7 @@ header {
   width: 100%;
   height: auto;
 }
-a:hover {
+a.ring:hover {
   opacity: 0.7;
 }
 
